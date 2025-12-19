@@ -1,0 +1,13 @@
+firstly make a file in terminal 
+	and then add a .git folder using command :
+					git init
+		and write the codes or text anything 
+	and for adding the code from working area to staging area , use 
+	the command :
+				git add 
+	and after that if you want to change more use command :
+					git rm --cached<filename>
+	and make changes 
+	at last use :
+			git commit 
+ continously use git status in between

@@ -11,3 +11,4 @@ firstly make a file in terminal
 	at last use :
 			git commit 
  continously use git status in between
+and to push we can use either https or ssh

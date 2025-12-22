@@ -19,8 +19,6 @@ function  startGame(){
 
 function rendergame(){
 
-
-
       if(sum<=20){
             message="Do you want to draw a new card?";
 
@@ -35,20 +33,22 @@ function rendergame(){
          }
          playel.textContent=message
          sumel.textContent=sum
-         cardel.textContent=firstCard + "," + secondCard
+         cardel.textContent=cards[0] + "," + cards[1]
 
          console.log(message);
          console.log(hasblackjack)
       }
       
       function newcard(){
-        let card =9
+        let card =2
         sum += card
-       
+        cards.push(card)
+       console.log(cards)
         rendergame()
          cardel.textContent+= "," + card
-         console.log("draw a new card")
+         // console.log("draw a new card")
       }
+      newcard()
    
 
 
